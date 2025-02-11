@@ -1,18 +1,33 @@
 ---
-layout: page
-title: About
+layout: about
+title: About Me
 permalink: /about/
+tags: about
+flicker: true
+headshot: /images/headshot.jpg
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+I am a Software Engineering student at [RMIT University](https://www.rmit.edu.au/) in Melbourne. Starting November 2016 I will be interning with [Zendesk](https://www.zendesk.com/) in a Data Engineering role.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+I'm currently doing a lot of work building developer communities around my University. I'll chase any opportunity to improve collaboration and outreach in the tech. industry.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+My main areas of interest are in NLP, Agent-Oriented Programming, and Computational Dialectics.
+
+{% if site.show_talks_section %}
+## Talks
+
+- Put something here!
+{% endif %}
+
+{% if site.show_workshops_section %}
+## Workshops
+
+- Put something here!
+{% endif %}
 
 
-[jekyll-organization]: https://github.com/jekyll
+<style>
+.post-header, #talks, #workshops {
+  text-align: center; /* Want the About Page header to be in the middle */
+}
+</style>
