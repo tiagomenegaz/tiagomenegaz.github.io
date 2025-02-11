@@ -5,7 +5,7 @@ tags: home
 {% assign posts_count = paginator.posts | size %}
 
 <div class="home">
-  {% if posts_count > 0 %}
+  {% if false && posts_count > 0 %}
     <div class="posts">
       {% for post in paginator.posts %}
         <div class="post py3">
@@ -25,5 +25,10 @@ tags: home
     {% include pagination.html %}
   {% else %}
     <h1 class='center'>{{ site.text.index.coming_soon }}</h3>
+    <div class="posts">
+      <p class="post-summary"></p>
+        Meanwhile, check out <a href="{{ site.baseurl }}/about/">my about page</a>.
+      </p>
+    </div>
   {% endif %}
 </div>
